@@ -1,0 +1,57 @@
+pwd (print working directory) Mostrar el nombre de la carpeta en el que uno se encuentra situado.
+cd (change directory) Cambiar la carpeta de trabajo. Con este comando nos prodemos mover entre diferentes directorios. Si queeremos ir a un directorio en particular.
+ls (list) Listar el conteido de directorios. Este comando lista los ficheros y carpetas.
+
+mkdir (make directory) Crear una carpeta
+rmdir (remove directory) Borrar una carpeta
+
+gedit (Crear y editar archivos de texto)
+rm (remove) Borrar archivos
+
+cp (Copy) Copiar un archivo o carpte en el directorio especificado
+cp -r Lo mismo pero para crear carpetas
+Lmv (move) Mover un archivo o carpeta a un archivo o carpeta
+
+GIT
+
+Git init = Crea el repositorio
+
+Git config user.name "nombreusuario" = permite agregar nuestro nombre o identificador dentro de nuestro repositorio.
+Gid config user.email "emailusuario" =  Permite agregar nuestro correo al repositorio.
+Git config --global user.name = asigna lo mismo, pero de forma global para no tener que especificarlo para cada repositorio local que abramos.
+
+
+Git status = revisa el estado de los archivos en el repositorio
+Git commit -m "mensaje" = Sube los archivos al estado tracket en el repositorio
+Git rm --cached permite especificar que no se le haga seguimiento a um archivo y pasará a estado untracket
+
+
+Git log = registra un historia de los cambios de nuestros proyectos, es decir un historial de todos nuestros commits.
+
+Git remote add origin URLDELREPOSITORIO = Este comando nos permite conectar nuestro repositorio remoto con nuestro repositorio local. Le indicamos al repositorio local, con que repositorio remoto se debe sincronizar.
+Git remote -v = Nos permite verificar que todo quedó completamente conectado.
+ 
+Git clone = nos permite descargar un repositorio remoto a una carpeta vacía.
+Git push = nos permite enviar la información ya commiteada de nuestro repositorio local hacia nuestro repositorio remoto.
+Git pull = Por outro lado, pull nos permitirá actualizar los archivos del repositorio remoto, em nuestro repositorio local.
+
+Git branch: Enumera todas las ramas de tu repositorio, es similar a git branch --list
+Git branch NOMBREDERAMA = Crea una nueva rama llamada NOMBREDERAMA
+Git branch -d NOMBREDERAMA = Elimina la rama llamada NOMBREDERAMA. Git evita que eliminemos la rama si tiene cambios que aún no se han fusionado con la rama main.
+Git branch -D NOMBREDERAMA = Forza la eliminación de la rama especificada, incluso si tiene cambios sin fusionar.
+
+
+
+Git checkout
+
+Git checkout NOMBREDERAMA = Nos sirve para movernos entre ramas. Podemos apuntar con este comando, de una rama a otra.
+
+
+
+Guardar cambios:
+
+Para guardar cambios usamos prácticamente los mismos comandos normales que hemos aprendido, sin embargo sólo cambia el nombre de la rama en la que estemos situados.
+
+Git push origin NOMBREDERAMA = Por ejemplo, si quieremos subir los cambios de esta rama en específico, podemos usar este comando.
+
+Git pull origin NOMBREDERAMA = De igual forma, si lo que queremos es traer los cambios específicos de esta rama.
