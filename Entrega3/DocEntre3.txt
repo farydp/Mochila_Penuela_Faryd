@@ -1,0 +1,7 @@
+¿Por qué algunos sistemas operativos solo pueden utilizar ciertos lenguajes de programación mientras que otros no? Existen lenguajes de programación que están principalmente diseñados para funcionar en Windows y pueden tener limitaciones o dificultades en Mac. Algunos ejemplos de estos lenguajes son C#, ASP.NET y Visual Basic .NET (VB.NET).
+
+Es importante tener en cuenta que, aunque estos lenguajes pueden tener una preferencia o enfoque particular hacia un sistema operativo, muchos de ellos se pueden utilizar en diferentes plataformas. Sin embargo, pueden requerir configuraciones adicionales, presentar limitaciones o tener diferencias en su uso en distintos sistemas operativos. Además, es relevante destacar que la disponibilidad y la compatibilidad de los lenguajes pueden cambiar con el tiempo a medida que se actualizan y se desarrollan nuevas versiones y herramientas.
+
+¿Qué tipo de máquina virtual es VirtualBox? VirtualBox es una máquina virtual de sistemas.
+
+Si tengo instaladas varias máquinas virtuales y una de ellas se rompe, ¿esto afecta a las demás? No, ¿por qué? Las máquinas virtuales se ejecutan como procesos separados en un mismo servidor, lo que permite ejecutar varias instancias de una misma aplicación de manera independiente. Por lo tanto, si una de las máquinas virtuales presenta un fallo, esto no afectará al funcionamiento de las demás.
