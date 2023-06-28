@@ -1,0 +1,3 @@
+1. la Compatibilidad de un lenguaje de programación con un sismtea operativo depende de una combinación de factores técnicos, de diseño e implementación y políticas específicas.
+2. Virtual Box es una máquina virtual de sistema operativo
+3. No afecta a las demás, por que cada máquina virtual tiene sus sitema operativo independiente, igual que los recursos asignados a dicho sistema operativo.
