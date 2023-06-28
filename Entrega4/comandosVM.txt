@@ -1,0 +1,43 @@
+    1  agt-get install git
+    2  apt-get install git
+    3  git --version
+    4  ls
+    5  mkdir newfile
+    6  ls
+    7  cd newfile/
+    8  mkdir mochilaMV
+    9  ls
+   10  cd mochilaMV/
+   11  git init
+   12  git clone hhtps://github.com/farydp/Mochila_Penuela_Faryd
+   13  git clone https://github.com/farydp/Mochila_Penuela_Faryd
+   14  ls
+   15  cd Mochila_Penuela_Faryd/
+   16  ls
+   17  cd Entrega4
+   18  ls
+   19  git branch Entrega4
+   20  git branch
+   21  git pull origin Entrega3
+   22  git pull origin entrega3
+   23  git branch
+   24  git checkout Entrega3
+   25  git branch entrega3
+   26  git branch entrega4
+   27  git checkout entrega4
+   28  git checkout entrega3
+   29  git checkout entrega 4
+   30  git checkout entrega4
+   31  ls
+   32  touch preguntasEntrega4.txt
+   33  vim preguntasEntrega4.txt 
+   34  git status
+   35  git add .
+   36  git commit -m "Commit entrega 4 Faryd penuela"
+   37  git config user.email farydalejandro1997@hotmail.com
+   38  git config user.name farydp
+   39  git commit -m "Commit entrega 4 Faryd penuela"
+   40  git status
+   41  git push origin entrega4
+   42  touch comandosVM.txt
+   43  history > comandosVM.txt 
