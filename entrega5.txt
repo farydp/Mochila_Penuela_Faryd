@@ -1,0 +1,8 @@
+Telnet:
+Permite enviar más archivos como vantaja, como desventaja la deficiencia en seguridad.
+
+SSH:
+Tiene un protocolo de seguridad mayor como ventaja, su uso puede ser un poco más engorroso por lo mismo, como desventaja.
+
+SSH vs Telnet:
+La principal y más importante diferencia es la seguridad de estos protocolos.
